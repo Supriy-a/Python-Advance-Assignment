@@ -1,0 +1,17 @@
+An abstract class can be considered as a blueprint for other classes.
+ It allows you to create a set of methods that must be created within any child classes built from the abstract class. 
+A class which contains one or more abstract methods is called an abstract class.
+
+
+************************************************************************************
+If class statement's top level contains a basic assignment statement then it means that we declare class instance that are available for all 
+object and it can be accesssed by their class name.
+
+*********************************************************************
+It's because one needs to define something that is NOT done in the base-class' init , 
+and the only possibility to obtain that is to put its execution in a derived-class' init function.
+
+You can then dynamically replace (update) the parents to achieve the desired effect.
+
+Local scope is the area between an { and it's closing }. Function scope is the area between the opening { of a function and its closing }, 
+which may contain more "local" scopes.
