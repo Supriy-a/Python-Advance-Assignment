@@ -1,0 +1,63 @@
+In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. 
+It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. 
+The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the 
+code can access this data.
+**********************************************************************
+
+All of these objects are namespaces (packages of variables), and the inheritance search is simply a search of the tree from bottom to 
+top looking for the lowest occurrence of an attribute name.
+******************************************************************
+
+Class object
+Class is used as a template for declaring and creating the objects.
+When a class is created, no memory is allocated.
+The class has to be declared only once.
+A class cannot be manipulated as they are not available in the memory.
+A class is a logical entity.
+It is declared with the class keyword
+Class does not contain any values which can be associated with the field.
+A class is used to bind data as well as methods together as a single unit.
+
+Instance Object
+
+An object is an instance of a class.
+Objects are allocated memory space whenever they are created.
+An object is created many times as per requirement.
+Objects can be manipulated.
+An object is a physical entity.
+It is created with a class name in C++ and with the new keywords in Java.
+Each object has its own values, which are associated with it.
+Objects are like a variable of the class.
+****************************************************************
+The first argument of every class method, including init, is always a reference to the current instance of the class.
+ By convention, this argument is always named self. In the init method, self refers to the newly created object; 
+in other class methods, it refers to the instance whose method was called.
+
+*****************************************************************
+
+The init method is similar to constructors in C++ and Java . 
+Constructors are used to initialize the object's state.
+ The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.
+
+**********************************************************
+
+class Employee:
+    def __init__(self, name, salary):
+                 self.name = name
+                 self.salary = salary
+************************************************
+
+# create instance
+emp1 = Employee("Zara", 2000)
+**************************************
+emp1
+*****************************
+
+class MyClass:
+  x = 5
+# MyClass is a class
+********************************
+A superclass is the class from which many subclasses can be created. The subclasses inherit the characteristics of a superclass. 
+The superclass is also known as the parent class or base class. So, we use concept of inheritence.
+**************************************************************************************************************
+
